@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../res/fontawesome/css/all.css">
+    <link rel="stylesheet" href="/audio-player.css">
+
+    <title>cjm.zone</title>
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <a href="https://github.com/milkyjae">
+                <img class="asterix" src="media/asterix/black-asterix.svg">
+            </a>
+            <p class="dev"> <- Development</p>
+            <div class="caret"></div>
+        </div>
+        <div class="centerpiece">
+            <div class="name"><a href="index.html">cjm.zone</a></div>
+            <div class="blirp">Computer Science student, based in Los Angeles, Ca.</div>
+        </div>
+        <div class="links">
+            <ul class="nav-bar">
+                <li class ="nav-item">
+                    <a href="mailto:hello@cjm.zone" class="nav-link">email, </a>
+                </li>
+
+                <li class ="nav-item">
+                    <a href="https://www.linkedin.com/in/connor-mckenna-2199-/" class="nav-link">connect, </a>
+                </li>
+
+                <li class ="nav-item">
+                    <a href="#n1-scroll" class="nav-link">projects </a>
+                </li>
+            </ul>
+            <!-- <div class="brightness">
+                <button onclick="darkMode()"><img id="icon" src="media/moon.png"></button>
+                <button onclick="lightMode()"><img id="icon" src="media/sun.png"></button>
+            </div> -->
+        </div>
+    </header>
+    <div class="player-conainer">
+        <div class="playlist">
+            <div class="tracks">
+                <div id="one"><p>hiker</p></div>
+            </div>
+            <div class="tracks">
+                <div id="two">
+                    <p>inhale</p>
+                </div>
+            </div>
+            <div class="tracks">
+                <div id="three">
+                    <p>pop</p>
+                </div>
+            </div>
+        </div>
+        <audio id="player" src=""></audio> <!-- should be src = " trax/coldworld.wav"-->
+        <div class="player">
+            <div class="control">
+                <i class="fa fa-play" id="playbtn"></i>
+            </div>    
+            <!---->     
+            <div class="progress_bar" id="progress_bar">
+                <div class="progressed" id="progressed"></div>
+            </div>
+            <!---->  
+            <div id="current"> 0:00   
+                <div class="bar"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <a href="https://github.com/milkyjae">
+            <img class="git-hub" src="media/asterix/git-hub-logo-white.svg">
+        </a>
+        <div id="clock"></div>
+    </footer>
+    
+    <script src="scripts/audio-player.js"></script>
+    <script src="scripts/clock.js"></script>
+    
+</body>
+</html>
