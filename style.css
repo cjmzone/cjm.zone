@@ -287,7 +287,7 @@ main{
 }
 
 .proj-name p:nth-child(1){
-    font-size: 17px;
+    font-size: 16px;
     cursor: pointer;
 }
 .proj-name p:nth-child(1):hover{
@@ -296,15 +296,15 @@ main{
 }
 
 .proj-name p:nth-child(2){ 
-    padding-left: 10px;
+    padding-left: 8px;
     padding-top: 4px;
-    font-size: 12px;
+    font-size: 11px;
     -webkit-text-fill-color:  rgb(235, 45, 168);
 }
 #cplus{
-    padding-left: 10px;
+    padding-left: 8px;
     padding-top: 4px;
-    font-size: 12px;
+    font-size: 11px;
     -webkit-text-fill-color:  rgb(235, 45, 168);
 
 }
@@ -313,19 +313,19 @@ main{
     font-size: 13px;
 }
 .try-me{
+    border: 2px solid black;
+    border-radius: 8px;
     display: flex;
     background-color: white;
     align-items: center;
     justify-content: center;
-    margin-left: 320px;
-    margin-top: 35px;
-    border: 2px solid black;
-    border-radius: 25px;
     width: 100px;
+    margin-top: 18px;
     -webkit-box-shadow: rgba(0, 0, 100, 0.3) 0 1px 5px;
             box-shadow: rgba(0, 0, 100, 0.3) 0 1px 5px;
     -webkit-animation: sway 10s infinite linear;
             animation: sway 10s infinite linear;
+    
 }
 .try-me:hover{
     cursor: pointer;
@@ -486,18 +486,19 @@ footer {
         margin-left: 0%;
     }
     .try-me{
+        border: 2px solid black;
+        border-radius: 8px;
         display: flex;
         background-color: white;
         align-items: center;
         justify-content: center;
-        margin-left: 275px;
-        margin-top: 20px;
-        border: 2px solid black;
-        border-radius: 25px;
         width: 100px;
+        margin-top: 3px;
         -webkit-box-shadow: rgba(0, 0, 100, 0.3) 0 1px 5px;
                 box-shadow: rgba(0, 0, 100, 0.3) 0 1px 5px;
-
+        -webkit-animation: sway 10s infinite linear;
+                animation: sway 10s infinite linear;
+        
     }
 
 }
