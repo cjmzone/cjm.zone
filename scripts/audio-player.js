@@ -15,7 +15,7 @@ document.querySelector('#two').addEventListener('click', function (ev) {
     playSong(this, 'trax/nuero-synth.wav')
 })
 document.querySelector('#three').addEventListener('click', function (ev) {
-    playSong(this, 'trax/bounce-synth.wav')
+    playSong(this, 'trax/pop.wav')
 })
 
 function playSong(targetElement, track) {
